@@ -8,6 +8,6 @@
 
 ## 2) Library management system:
 
--implemented the system as a practise for oop
--asks user for required task and performs it as necessary
+- implemented the system as a practise for oop
+- asks user for required task and performs it as necessary
 

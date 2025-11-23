@@ -15,3 +15,11 @@
 - Added some extra feature in my grade tracker using OOP
 - Asks user for inputs and performs the required tasks 
 
+## 4) Die roller
+- simple die roller program that asks the user to input number of rolls and sides
+- gives user the random output it produced
+
+## 5) rock paper scissors 
+- simple rock,paper,scissors program that uses random module to generate output
+- used json to track scores across session 
+

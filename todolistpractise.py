@@ -25,15 +25,14 @@ def add_task():
 
 def view_task():
         if len(to_do_list)>0:
-         for tasks in to_do_list:
-            print(tasks)
+         for index,tasks in enumerate(to_do_list):
+            print(f"{index}:{tasks}")
         else:
            print("empty task!!")
 
 
 def mark_done():
-        for index,value in enumerate(to_do_list):
-            print(f'{index}:{value}')
+        view_task()
         try:
          done=int(input("enter the task you want to delete:"))
          if 0 <= done < len(to_do_list):        
@@ -43,7 +42,7 @@ def mark_done():
           save_data()
          else:
             print("no task selected!!")
-        except:
+        except ValueError:
             print("enter a number!!")
 
 def view_completed_tasks():
@@ -60,9 +59,15 @@ def save_data():
         json.dump(data,f,indent=4)
 
 
-print("Enter 1 to add task, 2 to view task, 3 to mark task as done,4 to see the completed task,5 to quit:")
 
 while True:
+
+    print("--Menu--")
+    print("1. Add task")
+    print("2. View tasks")
+    print("3. Mark tasks as done")
+    print("4. View completed tasks")
+    print("5. Quit")
 
     try:
         choice=int(input("Enter the task you want to perform:"))

@@ -1,25 +1,25 @@
-# Different python projects
+## python projects
 
+This repository demonstrates basic to intermediate python programs written during my early phase . It contains code that uses OOP,functions,JSONs and basic CRUD-ish CLI apps. 
 
-## 1) to do list program:
+# projects
 
-- asks the user for the required task and performs it
-- saves the data to json and loads it so data isnt lost across multiple sessions
+- To do list app
+- Grade Tracker 
+- library Management System
+- rock paper scissors game 
+- die roller game
 
-## 2) Library management system:
+# How to run:
 
-- implemented the system as a practise for oop
-- asks user for required task and performs it as necessary
+1. Clone this repo
+- git clone git@github.com:Aayam-Rimal/Python_projects.git
 
-## 3) Students Grade Tracker
-- Added some extra feature in my grade tracker using OOP
-- Asks user for inputs and performs the required tasks 
+2. Run in your local machine
 
-## 4) Die roller
-- simple die roller program that asks the user to input number of rolls and sides
-- gives user the random output it produced
+## Notes
+- created as a practise repo
+- does not demonstrate any complex project
+- useful for beginners getting into basic OOPs,File handling and CRUD concepts
 
-## 5) rock paper scissors 
-- simple rock,paper,scissors program that uses random module to generate output
-- used json to track scores across session 
 
